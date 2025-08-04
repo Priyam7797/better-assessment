@@ -1,0 +1,101 @@
+/* General container */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Comment item */
+.comment-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  position: relative;
+}
+
+/* Comment text */
+.comment-text {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Buttons */
+button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Edit button */
+button.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Delete button */
+button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Save button */
+button.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Cancel button */
+button.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Input for editing */
+input[type="text"] {
+  padding: 6px 10px;
+  font-size: 16px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Comment form input */
+form input[type="text"] {
+  width: 80%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Comment form button */
+form button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
