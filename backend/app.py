@@ -5,7 +5,7 @@ from routes import comment_bp
 
 def create_app():
     app = Flask(__name__)
-    CORS(app, origins=["http://localhost:5174", "http://localhost:5175"])
+    CORS(app, origins=["http://localhost:5173", "http://localhost:5174", "http://localhost:5175"])
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
